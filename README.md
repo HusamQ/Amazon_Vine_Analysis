@@ -15,19 +15,19 @@ Using Pyspark, the data was extracted from an AWS S3 bucket, transform the data,
 In this analysios we focus only on the reviews that gave 5 star reviews and marked as helpful reviews for these products. 
 There are 14630 participants with more than 20 of total reviews. 
 
-![Number of vine](https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Nvine5star.PNG)
+![Numberofvine](https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Nvine5star.PNG)
 
 - Vine reviews 
-![more than 20 reviews](https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Vine%20participants.PNG)
+![morethan20reviews](https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Vine%20participants.PNG)
 
 - Non Vine Reviews
-![Total of unpaid]https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/TotalNonVine.PNG
+![Totalofunpaid]https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/TotalNonVine.PNG
 
 - Percentage of vine reviews: Total of vine helpful 5 star reviews divided by the total number of helpful and 5 star reviews
-![Percentage of vine]https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Percentage_vine5.PNG
+![Percentageofvine]https://github.com/HusamQ/Amazon_Vine_Analysis/blob/2d4c9165b618dc0ce4a87b5a6dc8678289754736/Images/Percentage_vine5.PNG
 
 - Percentage of non vine reviews: The total of non vine helpful and 5 star reviews divided by the total number of helpful and 5 star reviews.
-![Percentage of non vine] (https://github.com/HusamQ/Amazon_Vine_Analysis/blob/af3cc6c2edd92b104cc6d502ffd7456768bf6347/Images/Percentage_novine.PNG)
+![Percentageofnonvine] (https://github.com/HusamQ/Amazon_Vine_Analysis/blob/af3cc6c2edd92b104cc6d502ffd7456768bf6347/Images/Percentage_novine.PNG)
 
 # Summary 
 Based on this dataset for Grocery products, we notice that the majority of helpful reviews came from a non vine reviewers (unpaid). As a result, I don't think there would be a bias in the reviews for these product by vine participants. 
